@@ -1,0 +1,78 @@
+/* styles.css */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    padding:30px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f6f6f6;
+    padding: 30px;
+    box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.2);
+}
+.nav-links ul{
+    
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    list-style: none;
+    padding: 0;
+}
+.nav-links ul li a{
+    color: #004280;
+    font-weight: 500;
+}
+.nav-links ul li a:hover{
+    color: #517faa;
+    transition: 0.3s;
+}
+
+/* banner css */
+
+.banner{
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    align-items: center;
+    height: 95vh;
+}
+.intro{
+    font-weight: 400;
+    font-size: 30px;
+    color: #004280;
+}
+.name{
+    font-weight: 700;
+    font-size: 50px;
+    color: #517faa;
+}
+.button-resume{
+    padding: 15px 25px;
+    border-radius: 15px;
+    border: none;
+    background-color:#004280;
+    color: #dddddd;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 30px;
+    word-spacing: 2%;
+}
+.button-resume:hover{
+    background-color:#517faa;
+    color: #ddd;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+a{
+    text-decoration: none;
+}
+
