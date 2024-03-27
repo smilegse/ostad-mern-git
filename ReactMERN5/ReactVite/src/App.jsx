@@ -1,9 +1,10 @@
 
-import ToDoApp from './components/ToDoApp';
+import Form from "./components/Form"
+
 const App = () => {
   return (
     <div>
-        <ToDoApp />
+      <Form/>
     </div>
   )
 }
